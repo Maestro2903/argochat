@@ -1,0 +1,77 @@
+# Render Blueprint for ArgoChat (Open WebUI)
+# This file configures deployment for both frontend and backend services
+
+services:
+  # Backend API Service (Python FastAPI)
+  - type: web
+    name: argochat-backend
+    env: python
+    region: oregon
+    plan: starter
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: cd backend && python -m uvicorn open_webui.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.0
+      - key: ENV
+        value: prod
+      - key: WEBUI_SECRET_KEY
+        generateValue: true
+      - key: DATA_DIR
+        value: ./data
+      - key: OLLAMA_BASE_URL
+        value: https://api.openai.com/v1
+      - key: OPENAI_API_BASE_URL
+        value: https://api.openai.com/v1
+      - key: CORS_ALLOW_ORIGIN
+        value: https://argochat-frontend.onrender.com
+      - key: FORWARDED_ALLOW_IPS
+        value: "*"
+      - key: WEBUI_URL
+        value: https://argochat-frontend.onrender.com
+      - key: PORT
+        value: 10000
+    disk:
+      name: argochat-data
+      mountPath: /opt/render/project/src/backend/data
+      sizeGB: 1
+
+  # Frontend Service (SvelteKit)
+  - type: web
+    name: argochat-frontend
+    env: node
+    region: oregon
+    plan: starter
+    buildCommand: npm install --legacy-peer-deps && npm run build
+    startCommand: npm run preview -- --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: NODE_VERSION
+        value: 22.12.0
+      - key: PUBLIC_API_BASE_URL
+        value: https://argochat-backend.onrender.com
+      - key: ORIGIN
+        value: https://argochat-frontend.onrender.com
+      - key: APP_VERSION
+        value: 0.6.31
+      - key: APP_BUILD_HASH
+        value: render-build
+
+  # Database (PostgreSQL for production)
+  - type: pserv
+    name: argochat-db
+    env: docker
+    plan: starter
+    region: oregon
+    dockerfilePath: ./Dockerfile.postgres
+    envVars:
+      - key: POSTGRES_DB
+        value: argochat
+      - key: POSTGRES_USER
+        value: argochat_user
+      - key: POSTGRES_PASSWORD
+        generateValue: true
+    disk:
+      name: postgres-data
+      mountPath: /var/lib/postgresql/data
+      sizeGB: 1
