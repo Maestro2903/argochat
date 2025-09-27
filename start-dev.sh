@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Open WebUI Development Server Launcher
+# FLOAT CHAT Development Server Launcher
 # This script starts both frontend and backend servers concurrently
 
 set -e
@@ -54,7 +54,7 @@ trap cleanup SIGINT SIGTERM
 # Change to project directory
 cd "$PROJECT_ROOT"
 
-log "🚀 Open WebUI Development Server Launcher" "$GREEN"
+log "🚀 FLOAT CHAT Development Server Launcher" "$GREEN"
 log "Starting both frontend and backend servers..." "$BLUE"
 
 # Check dependencies
@@ -73,8 +73,8 @@ if ! command -v node &> /dev/null; then
 fi
 
 # Check Python
-if ! command -v python3.12 &> /dev/null; then
-    log "❌ Python 3.12 not found. Please install Python 3.12" "$RED"
+if ! command -v python3 &> /dev/null; then
+    log "❌ Python 3 not found. Please install Python 3.11+" "$RED"
     exit 1
 fi
 
@@ -90,7 +90,7 @@ log "✅ Dependencies check passed" "$GREEN"
 log "🚀 Starting backend server..." "$BLUE"
 (
     cd backend
-    python3.12 -m uvicorn open_webui.main:app --reload --host 0.0.0.0 --port 8080 2>&1 | \
+    python3 -m uvicorn open_webui.main:app --reload --host 0.0.0.0 --port 8081 2>&1 | \
     while IFS= read -r line; do
         echo -e "${BLUE}[BACKEND]${NC} $line"
     done
@@ -139,7 +139,7 @@ log "🎉 Both servers are running successfully!" "$GREEN"
 echo ""
 echo -e "${GREEN}📱 Access URLs:${NC}"
 echo -e "   Frontend: ${BLUE}http://localhost:5173/${NC}"
-echo -e "   Backend:  ${BLUE}http://localhost:8080/${NC}"
+echo -e "   Backend:  ${BLUE}http://localhost:8081/${NC}"
 echo ""
 echo -e "${YELLOW}Press Ctrl+C to stop both servers${NC}"
 echo ""
