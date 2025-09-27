@@ -423,7 +423,7 @@
 	"Discover a model": "Modell felfedezése",
 	"Discover a prompt": "Prompt felfedezése",
 	"Discover a tool": "Eszköz felfedezése",
-	"Discover how to use FLOAT CHAT and seek support from the community.": "Fedezd fel, hogyan használd az FLOAT CHAT-t és kérj támogatást a közösségtől.",
+	
 	"Discover wonders": "Csodák felfedezése",
 	"Discover, download, and explore custom functions": "Fedezz fel, tölts le és fedezz fel egyéni funkciókat",
 	"Discover, download, and explore custom prompts": "Fedezz fel, tölts le és fedezz fel egyéni promptokat",
@@ -504,7 +504,7 @@
 	"Enable autocomplete generation for chat messages": "Automatikus kiegészítés engedélyezése csevegőüzenetekhez",
 	"Enable Code Execution": "Kód végrehajtás engedélyezése",
 	"Enable Code Interpreter": "Kód értelmező engedélyezése",
-	"Enable Community Sharing": "Közösségi megosztás engedélyezése",
+	
 	"Enable Memory Locking (mlock) to prevent model data from being swapped out of RAM. This option locks the model's working set of pages into RAM, ensuring that they will not be swapped out to disk. This can help maintain performance by avoiding page faults and ensuring fast data access.": "Engedélyezd a memória zárolást (mlock), hogy a modell adatai ne kerüljenek ki a RAM-ból. Ez az opció a modell munkakészletének oldalait a RAM-ban rögzíti, így nem kerülnek a lemezre. Ez segíthet a teljesítmény fenntartásában az oldalhibák elkerülésével és a gyors adathozzáférés biztosításával.",
 	"Enable Memory Mapping (mmap) to load model data. This option allows the system to use disk storage as an extension of RAM by treating disk files as if they were in RAM. This can improve model performance by allowing for faster data access. However, it may not work correctly with all systems and can consume a significant amount of disk space.": "Engedélyezd a memória leképezést (mmap) a modell adatainak betöltéséhez. Ez az opció lehetővé teszi a rendszer számára, hogy a lemeztárolót a RAM kiterjesztéseként használja, a lemezfájlokat RAM-ban lévőként kezelve. Ez javíthatja a modell teljesítményét a gyorsabb adathozzáférés révén. Azonban nem minden rendszerrel működik megfelelően és jelentős lemezterületet foglalhat.",
 	"Enable Message Rating": "Üzenet értékelés engedélyezése",
@@ -800,7 +800,7 @@
 	"Height": "",
 	"Hello, {{name}}": "Helló, {{name}}",
 	"Help": "Segítség",
-	"Help us create the best community leaderboard by sharing your feedback history!": "Segíts nekünk a legjobb közösségi ranglista létrehozásában a visszajelzési előzményeid megosztásával!",
+	
 	"Hex Color": "Hexa szín",
 	"Hex Color - Leave empty for default color": "Hexa szín - Hagyd üresen az alapértelmezett színhez",
 	"Hide": "Elrejtés",
@@ -1230,7 +1230,7 @@
 	"Reasoning Tags": "",
 	"Record": "",
 	"Record voice": "Hang rögzítése",
-	"Redirecting you to FLOAT CHAT Community": "Átirányítás az OpenWebUI közösséghez",
+	
 	"Reduces the probability of generating nonsense. A higher value (e.g. 100) will give more diverse answers, while a lower value (e.g. 10) will be more conservative.": "Csökkenti a ostobaság generálásának valószínűségét. Magasabb érték (pl. 100) változatosabb válaszokat ad, míg alacsonyabb érték (pl. 10) konzervatívabb lesz.",
 	"Refer to yourself as \"User\" (e.g., \"User is learning Spanish\")": "Hivatkozzon magára \"Felhasználó\"-ként (pl. \"A Felhasználó spanyolul tanul\")",
 	"Reference Chats": "",
@@ -1398,7 +1398,7 @@
 	"Settings saved successfully!": "Beállítások sikeresen mentve!",
 	"Share": "Megosztás",
 	"Share Chat": "Beszélgetés megosztása",
-	"Share to FLOAT CHAT Community": "Megosztás az OpenWebUI közösséggel",
+	
 	"Share your background and interests": "",
 	"Sharing Permissions": "Megosztási engedélyek",
 	"Shortcuts with an asterisk (*) are situational and only active under specific conditions.": "",

@@ -423,7 +423,7 @@
 	"Discover a model": "اكتشف نموذجا",
 	"Discover a prompt": "اكتشاف موجه",
 	"Discover a tool": "اكتشف أداة",
-	"Discover how to use FLOAT CHAT and seek support from the community.": "اكتشف كيفية استخدام FLOAT CHAT واطلب الدعم من المجتمع.",
+	
 	"Discover wonders": "اكتشف العجائب",
 	"Discover, download, and explore custom functions": "اكتشف، حمّل، واستعرض الوظائف المخصصة",
 	"Discover, download, and explore custom prompts": "اكتشاف وتنزيل واستكشاف المطالبات المخصصة",
@@ -504,7 +504,7 @@
 	"Enable autocomplete generation for chat messages": "تفعيل توليد الإكمال التلقائي لرسائل الدردشة",
 	"Enable Code Execution": "تفعيل تنفيذ الكود",
 	"Enable Code Interpreter": "تفعيل مفسر الكود",
-	"Enable Community Sharing": "تمكين مشاركة المجتمع",
+	
 	"Enable Memory Locking (mlock) to prevent model data from being swapped out of RAM. This option locks the model's working set of pages into RAM, ensuring that they will not be swapped out to disk. This can help maintain performance by avoiding page faults and ensuring fast data access.": "تفعيل قفل الذاكرة (mlock) لمنع إخراج بيانات النموذج من الذاكرة. يساعد هذا الخيار في الحفاظ على الأداء من خلال منع حدوث أخطاء في الوصول وضمان سرعة الوصول إلى البيانات.",
 	"Enable Memory Mapping (mmap) to load model data. This option allows the system to use disk storage as an extension of RAM by treating disk files as if they were in RAM. This can improve model performance by allowing for faster data access. However, it may not work correctly with all systems and can consume a significant amount of disk space.": "تفعيل تعيين الذاكرة (mmap) لتحميل بيانات النموذج. يسمح هذا الخيار للنظام باستخدام التخزين كامتداد للذاكرة RAM عن طريق معاملة ملفات القرص كما لو كانت في RAM. قد يحسن أداء النموذج، لكن قد لا يعمل بشكل صحيح مع جميع الأنظمة وقد يستهلك مساحة كبيرة من القرص.",
 	"Enable Message Rating": "تفعيل تقييم الرسائل",
@@ -800,7 +800,7 @@
 	"Height": "",
 	"Hello, {{name}}": " {{name}} مرحبا",
 	"Help": "مساعدة",
-	"Help us create the best community leaderboard by sharing your feedback history!": "ساعدنا في إنشاء أفضل قائمة للمتصدرين من خلال مشاركة سجل ملاحظاتك!",
+	
 	"Hex Color": "لون سداسي",
 	"Hex Color - Leave empty for default color": "اللون السداسي - اتركه فارغًا لاستخدام اللون الافتراضي",
 	"Hide": "أخفاء",
@@ -1230,7 +1230,7 @@
 	"Reasoning Tags": "",
 	"Record": "",
 	"Record voice": "سجل صوت",
-	"Redirecting you to FLOAT CHAT Community": "OpenWebUI إعادة توجيهك إلى مجتمع ",
+	
 	"Reduces the probability of generating nonsense. A higher value (e.g. 100) will give more diverse answers, while a lower value (e.g. 10) will be more conservative.": "يقلل من احتمال توليد إجابات غير منطقية. القيم الأعلى (مثل 100) تعطي إجابات أكثر تنوعًا، بينما القيم الأدنى (مثل 10) تكون أكثر تحفظًا.",
 	"Refer to yourself as \"User\" (e.g., \"User is learning Spanish\")": "أشر إلى نفسك باسم \"المستخدم\" (مثل: \"المستخدم يتعلم الإسبانية\")",
 	"Reference Chats": "",
@@ -1402,7 +1402,7 @@
 	"Settings saved successfully!": "تم حفظ الاعدادات بنجاح",
 	"Share": "كشاركة",
 	"Share Chat": "مشاركة الدردشة",
-	"Share to FLOAT CHAT Community": "OpenWebUI شارك في مجتمع",
+	
 	"Share your background and interests": "",
 	"Sharing Permissions": "",
 	"Shortcuts with an asterisk (*) are situational and only active under specific conditions.": "",

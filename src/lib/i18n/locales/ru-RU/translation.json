@@ -423,7 +423,7 @@
 	"Discover a model": "Найти модель",
 	"Discover a prompt": "Найти промпт",
 	"Discover a tool": "Найти инструмент",
-	"Discover how to use FLOAT CHAT and seek support from the community.": "Узнайте, как использовать FLOAT CHAT, и обратитесь за поддержкой к сообществу.",
+	
 	"Discover wonders": "Откройте для себя чудеса",
 	"Discover, download, and explore custom functions": "Открывайте для себя, загружайте и исследуйте пользовательские функции",
 	"Discover, download, and explore custom prompts": "Открывайте для себя, загружайте и исследуйте пользовательские промпты",
@@ -504,7 +504,7 @@
 	"Enable autocomplete generation for chat messages": "Включить генерацию автозаполнения для сообщений чата",
 	"Enable Code Execution": "Включить исполнение кода",
 	"Enable Code Interpreter": "Включить интерпретатор кода",
-	"Enable Community Sharing": "Включить совместное использование",
+	
 	"Enable Memory Locking (mlock) to prevent model data from being swapped out of RAM. This option locks the model's working set of pages into RAM, ensuring that they will not be swapped out to disk. This can help maintain performance by avoiding page faults and ensuring fast data access.": "Включите блокировку памяти (mlock), чтобы предотвратить выгрузку данных модели из ОЗУ. Эта опция блокирует рабочий набор страниц модели в оперативной памяти, гарантируя, что они не будут выгружены на диск. Это может помочь поддерживать производительность, избегая ошибок страниц и обеспечивая быстрый доступ к данным.",
 	"Enable Memory Mapping (mmap) to load model data. This option allows the system to use disk storage as an extension of RAM by treating disk files as if they were in RAM. This can improve model performance by allowing for faster data access. However, it may not work correctly with all systems and can consume a significant amount of disk space.": "Включите отображение памяти (mmap), чтобы загрузить данные модели. Эта опция позволяет системе использовать дисковое хранилище в качестве расширения оперативной памяти, обрабатывая дисковые файлы так, как если бы они находились в оперативной памяти. Это может улучшить производительность модели за счет более быстрого доступа к данным. Однако он может работать некорректно со всеми системами и занимать значительный объем дискового пространства.",
 	"Enable Message Rating": "Разрешить оценку ответов",
@@ -800,7 +800,7 @@
 	"Height": "Высота",
 	"Hello, {{name}}": "Привет, {{name}}",
 	"Help": "Помощь",
-	"Help us create the best community leaderboard by sharing your feedback history!": "Помогите нам создать лучшую таблицу лидеров сообщества, поделившись историей своих отзывов!",
+	
 	"Hex Color": "Цвет Hex",
 	"Hex Color - Leave empty for default color": "Цвет Hex - оставьте пустым значение цвета по умолчанию",
 	"Hide": "Скрыть",
@@ -1230,7 +1230,7 @@
 	"Reasoning Tags": "Теги рассуждения",
 	"Record": "Запись",
 	"Record voice": "Записать голос",
-	"Redirecting you to FLOAT CHAT Community": "Перенаправляем вас в сообщество OpenWebUI",
+	
 	"Reduces the probability of generating nonsense. A higher value (e.g. 100) will give more diverse answers, while a lower value (e.g. 10) will be more conservative.": "Снижает вероятность появления бессмыслицы. Большее значение (например, 100) даст более разнообразные ответы, в то время как меньшее значение (например, 10) будет более консервативным.",
 	"Refer to yourself as \"User\" (e.g., \"User is learning Spanish\")": "Называйте себя \"User\" (например, \"User is learning Spanish\").",
 	"Reference Chats": "Справочные чаты",
@@ -1400,7 +1400,7 @@
 	"Settings saved successfully!": "Настройки успешно сохранены!",
 	"Share": "Поделиться",
 	"Share Chat": "Поделиться чатом",
-	"Share to FLOAT CHAT Community": "Поделиться с сообществом OpenWebUI",
+	
 	"Share your background and interests": "Расскажите о своём опыте и интересах",
 	"Sharing Permissions": "Разрешения на общий доступ",
 	"Shortcuts with an asterisk (*) are situational and only active under specific conditions.": "Комбинации клавиш со звёздочкой (*) являются ситуативными и активны только при определённых условиях.",

@@ -423,7 +423,7 @@
 	"Discover a model": "發掘模型",
 	"Discover a prompt": "發掘提示詞",
 	"Discover a tool": "發掘工具",
-	"Discover how to use FLOAT CHAT and seek support from the community.": "探索如何使用 FLOAT CHAT 並從社群尋求支援。",
+	
 	"Discover wonders": "發掘奇蹟",
 	"Discover, download, and explore custom functions": "發掘、下載及探索自訂函式",
 	"Discover, download, and explore custom prompts": "發掘、下載及探索自訂提示詞",
@@ -504,7 +504,7 @@
 	"Enable autocomplete generation for chat messages": "啟用對話訊息的自動完成",
 	"Enable Code Execution": "啟用程式碼執行",
 	"Enable Code Interpreter": "啟用程式碼直譯器",
-	"Enable Community Sharing": "啟用社群分享",
+	
 	"Enable Memory Locking (mlock) to prevent model data from being swapped out of RAM. This option locks the model's working set of pages into RAM, ensuring that they will not be swapped out to disk. This can help maintain performance by avoiding page faults and ensuring fast data access.": "啟用記憶體鎖定（mlock）以防止模型資料被換出 RAM。此選項會將模型的工作頁面集鎖定在 RAM 中，確保它們不會被換出到磁碟。這可以透過避免頁面錯誤和確保快速資料存取來維持效能。",
 	"Enable Memory Mapping (mmap) to load model data. This option allows the system to use disk storage as an extension of RAM by treating disk files as if they were in RAM. This can improve model performance by allowing for faster data access. However, it may not work correctly with all systems and can consume a significant amount of disk space.": "啟用記憶體配置圖（mmap）以載入模型資料。此選項允許系統使用磁碟儲存作為 RAM 的延伸，透過將磁碟檔案視為在 RAM 中來處理。這可以透過允許更快的資料存取來改善模型效能。然而，它可能無法在所有系統上正常運作，並且可能會消耗大量磁碟空間。",
 	"Enable Message Rating": "啟用訊息評分",
@@ -800,7 +800,7 @@
 	"Height": "高度",
 	"Hello, {{name}}": "您好，{{name}}",
 	"Help": "說明",
-	"Help us create the best community leaderboard by sharing your feedback history!": "透過分享您的回饋歷史，幫助我們建立最佳的社群排行榜！",
+	
 	"Hex Color": "Hex 顔色",
 	"Hex Color - Leave empty for default color": "Hex 顔色 —— 留空以使用預設顔色",
 	"Hide": "隱藏",
@@ -1230,7 +1230,7 @@
 	"Reasoning Tags": "推理標籤",
 	"Record": "錄製",
 	"Record voice": "錄音",
-	"Redirecting you to FLOAT CHAT Community": "正在將您重導向至 FLOAT CHAT 社群",
+	
 	"Reduces the probability of generating nonsense. A higher value (e.g. 100) will give more diverse answers, while a lower value (e.g. 10) will be more conservative.": "降低產生無意義內容的機率。較高的值（例如：100）會產生更多樣化的答案，而較低的值（例如：10）會更保守。",
 	"Refer to yourself as \"User\" (e.g., \"User is learning Spanish\")": "以「使用者」稱呼自己（例如：「使用者正在學習西班牙文」）",
 	"Reference Chats": "引用其他對話",
@@ -1397,7 +1397,7 @@
 	"Settings saved successfully!": "設定已成功儲存！",
 	"Share": "分享",
 	"Share Chat": "分享對話",
-	"Share to FLOAT CHAT Community": "分享到 FLOAT CHAT 社群",
+	
 	"Share your background and interests": "分享您的背景與興趣",
 	"Sharing Permissions": "分享權限設定",
 	"Shortcuts with an asterisk (*) are situational and only active under specific conditions.": "帶星號 (*) 的快捷鍵受場景限制，僅在特定條件下生效。",

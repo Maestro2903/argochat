@@ -423,7 +423,7 @@
 	"Discover a model": "Aurkitu eredu bat",
 	"Discover a prompt": "Aurkitu prompt bat",
 	"Discover a tool": "Aurkitu tresna bat",
-	"Discover how to use FLOAT CHAT and seek support from the community.": "",
+	
 	"Discover wonders": "Aurkitu mirariak",
 	"Discover, download, and explore custom functions": "Aurkitu, deskargatu eta esploratu funtzio pertsonalizatuak",
 	"Discover, download, and explore custom prompts": "Aurkitu, deskargatu eta esploratu prompt pertsonalizatuak",
@@ -504,7 +504,7 @@
 	"Enable autocomplete generation for chat messages": "",
 	"Enable Code Execution": "",
 	"Enable Code Interpreter": "",
-	"Enable Community Sharing": "Gaitu Komunitatearen Partekatzea",
+	
 	"Enable Memory Locking (mlock) to prevent model data from being swapped out of RAM. This option locks the model's working set of pages into RAM, ensuring that they will not be swapped out to disk. This can help maintain performance by avoiding page faults and ensuring fast data access.": "Gaitu Memoria Blokeatzea (mlock) ereduaren datuak RAM memoriatik kanpo ez trukatzeko. Aukera honek ereduaren lan-orri multzoa RAMean blokatzen du, diskora ez direla trukatuko ziurtatuz. Honek errendimendua mantentzen lagun dezake, orri-hutsegiteak saihestuz eta datuen sarbide azkarra bermatuz.",
 	"Enable Memory Mapping (mmap) to load model data. This option allows the system to use disk storage as an extension of RAM by treating disk files as if they were in RAM. This can improve model performance by allowing for faster data access. However, it may not work correctly with all systems and can consume a significant amount of disk space.": "Gaitu Memoria Mapaketa (mmap) ereduaren datuak kargatzeko. Aukera honek sistemari disko-biltegiratzea RAM memoriaren luzapen gisa erabiltzea ahalbidetzen dio, diskoko fitxategiak RAMean baleude bezala tratatuz. Honek ereduaren errendimendua hobe dezake, datuen sarbide azkarragoa ahalbidetuz. Hala ere, baliteke sistema guztietan behar bezala ez funtzionatzea eta disko-espazio handia kontsumitu dezake.",
 	"Enable Message Rating": "Gaitu Mezuen Balorazioa",
@@ -800,7 +800,7 @@
 	"Height": "",
 	"Hello, {{name}}": "Kaixo, {{name}}",
 	"Help": "Laguntza",
-	"Help us create the best community leaderboard by sharing your feedback history!": "Lagundu komunitatearen sailkapen onena sortzen zure feedback historia partekatuz!",
+	
 	"Hex Color": "Hex Kolorea",
 	"Hex Color - Leave empty for default color": "Hex Kolorea - Utzi hutsik kolore lehenetsia erabiltzeko",
 	"Hide": "Ezkutatu",
@@ -1230,7 +1230,7 @@
 	"Reasoning Tags": "",
 	"Record": "",
 	"Record voice": "Grabatu ahotsa",
-	"Redirecting you to FLOAT CHAT Community": "OpenWebUI Komunitatera berbideratzen",
+	
 	"Reduces the probability of generating nonsense. A higher value (e.g. 100) will give more diverse answers, while a lower value (e.g. 10) will be more conservative.": "",
 	"Refer to yourself as \"User\" (e.g., \"User is learning Spanish\")": "Egin erreferentzia zure buruari \"Erabiltzaile\" gisa (adib., \"Erabiltzailea gaztelania ikasten ari da\")",
 	"Reference Chats": "",
@@ -1398,7 +1398,7 @@
 	"Settings saved successfully!": "Ezarpenak ongi gorde dira!",
 	"Share": "Partekatu",
 	"Share Chat": "Partekatu txata",
-	"Share to FLOAT CHAT Community": "Partekatu OpenWebUI komunitatearekin",
+	
 	"Share your background and interests": "",
 	"Sharing Permissions": "",
 	"Shortcuts with an asterisk (*) are situational and only active under specific conditions.": "",

@@ -423,7 +423,7 @@
 	"Discover a model": "Descobrir un model",
 	"Discover a prompt": "Descobrir una indicació",
 	"Discover a tool": "Descobrir una eina",
-	"Discover how to use FLOAT CHAT and seek support from the community.": "Descobreix com utilitzar FLOAT CHAT i demana suport a la comunitat.",
+	
 	"Discover wonders": "Descobrir meravelles",
 	"Discover, download, and explore custom functions": "Descobrir, descarregar i explorar funcions personalitzades",
 	"Discover, download, and explore custom prompts": "Descobrir, descarregar i explorar indicacions personalitzades",
@@ -504,7 +504,7 @@
 	"Enable autocomplete generation for chat messages": "Activar la generació automàtica per als missatges del xat",
 	"Enable Code Execution": "Permetre l'execució de codi",
 	"Enable Code Interpreter": "Activar l'intèrpret de codi",
-	"Enable Community Sharing": "Activar l'ús compartit amb la comunitat",
+	
 	"Enable Memory Locking (mlock) to prevent model data from being swapped out of RAM. This option locks the model's working set of pages into RAM, ensuring that they will not be swapped out to disk. This can help maintain performance by avoiding page faults and ensuring fast data access.": "Activar el bloqueig de memòria (mlock) per evitar que les dades del model s'intercanviïn fora de la memòria RAM. Aquesta opció bloqueja el conjunt de pàgines de treball del model a la memòria RAM, assegurant-se que no s'intercanviaran al disc. Això pot ajudar a mantenir el rendiment evitant errors de pàgina i garantint un accés ràpid a les dades.",
 	"Enable Memory Mapping (mmap) to load model data. This option allows the system to use disk storage as an extension of RAM by treating disk files as if they were in RAM. This can improve model performance by allowing for faster data access. However, it may not work correctly with all systems and can consume a significant amount of disk space.": "Activar l'assignació de memòria (mmap) per carregar les dades del model. Aquesta opció permet que el sistema utilitzi l'emmagatzematge en disc com a extensió de la memòria RAM tractant els fitxers de disc com si estiguessin a la memòria RAM. Això pot millorar el rendiment del model permetent un accés més ràpid a les dades. Tanmateix, és possible que no funcioni correctament amb tots els sistemes i pot consumir una quantitat important d'espai en disc.",
 	"Enable Message Rating": "Permetre la qualificació de missatges",
@@ -800,7 +800,7 @@
 	"Height": "Alçada",
 	"Hello, {{name}}": "Hola, {{name}}",
 	"Help": "Ajuda",
-	"Help us create the best community leaderboard by sharing your feedback history!": "Ajuda'ns a crear la millor taula de classificació de la comunitat compartint el teu historial de comentaris!",
+	
 	"Hex Color": "Color hexadecimal",
 	"Hex Color - Leave empty for default color": "Color hexadecimal - Deixar buit per a color per defecte",
 	"Hide": "Amaga",
@@ -1230,7 +1230,7 @@
 	"Reasoning Tags": "Etiqueta de raonament",
 	"Record": "Enregistrar",
 	"Record voice": "Enregistrar la veu",
-	"Redirecting you to FLOAT CHAT Community": "Redirigint-te a la comunitat OpenWebUI",
+	
 	"Reduces the probability of generating nonsense. A higher value (e.g. 100) will give more diverse answers, while a lower value (e.g. 10) will be more conservative.": "Redueix la probabilitat de generar ximpleries. Un valor més alt (p. ex. 100) donarà respostes més diverses, mentre que un valor més baix (p. ex. 10) serà més conservador.",
 	"Refer to yourself as \"User\" (e.g., \"User is learning Spanish\")": "Fes referència a tu mateix com a \"Usuari\" (p. ex., \"L'usuari està aprenent espanyol\")",
 	"Reference Chats": "Xats de referència",
@@ -1399,7 +1399,7 @@
 	"Settings saved successfully!": "Les preferències s'han desat correctament",
 	"Share": "Compartir",
 	"Share Chat": "Compartir el xat",
-	"Share to FLOAT CHAT Community": "Compartir amb la comunitat OpenWebUI",
+	
 	"Share your background and interests": "Compartir la teva informació i interessos",
 	"Sharing Permissions": "Compartir els permisos",
 	"Shortcuts with an asterisk (*) are situational and only active under specific conditions.": "Les dreceres de teclat amb un asterisc (*) són situacionals i només actives sota condicions específiques.",

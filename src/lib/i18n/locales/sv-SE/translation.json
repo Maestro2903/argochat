@@ -423,7 +423,7 @@
 	"Discover a model": "Upptäck en modell",
 	"Discover a prompt": "Upptäck en instruktion",
 	"Discover a tool": "Upptäck ett verktyg",
-	"Discover how to use FLOAT CHAT and seek support from the community.": "Upptäck hur du använder FLOAT CHAT och sök stöd från communityn.",
+	
 	"Discover wonders": "Upptäck underverk",
 	"Discover, download, and explore custom functions": "Upptäck, ladda ner och utforska anpassade funktioner",
 	"Discover, download, and explore custom prompts": "Upptäck, ladda ner och utforska anpassade instruktioner",
@@ -504,7 +504,7 @@
 	"Enable autocomplete generation for chat messages": "Aktivera automatisk komplettering av generering för chattmeddelanden",
 	"Enable Code Execution": "Aktivera kodkörning",
 	"Enable Code Interpreter": "Aktivera kodtolk",
-	"Enable Community Sharing": "Aktivera community-delning",
+	
 	"Enable Memory Locking (mlock) to prevent model data from being swapped out of RAM. This option locks the model's working set of pages into RAM, ensuring that they will not be swapped out to disk. This can help maintain performance by avoiding page faults and ensuring fast data access.": "Aktivera minneslåsning (mlock) för att förhindra att modelldata swappas ut ur RAM. Detta alternativ låser modellens arbetsuppsättning av sidor i RAM, vilket säkerställer att de inte swappas ut till disk. Detta kan bidra till att upprätthålla prestanda genom att undvika sidfel och säkerställa snabb dataåtkomst.",
 	"Enable Memory Mapping (mmap) to load model data. This option allows the system to use disk storage as an extension of RAM by treating disk files as if they were in RAM. This can improve model performance by allowing for faster data access. However, it may not work correctly with all systems and can consume a significant amount of disk space.": "Aktivera minnesmappning (mmap) för att ladda modelldata. Detta alternativ tillåter systemet att använda disklagring som en förlängning av RAM genom att behandla diskfiler som om de vore i RAM. Detta kan förbättra modellens prestanda genom att möjliggöra snabbare dataåtkomst. Det kanske dock inte fungerar korrekt med alla system och kan förbruka en betydande mängd diskutrymme.",
 	"Enable Message Rating": "Aktivera meddelandebetyg",
@@ -800,7 +800,7 @@
 	"Height": "",
 	"Hello, {{name}}": "Hej, {{name}}",
 	"Help": "Hjälp",
-	"Help us create the best community leaderboard by sharing your feedback history!": "Hjälp oss att skapa den bästa community-topplistan genom att dela din feedbackhistorik!",
+	
 	"Hex Color": "Hexfärg",
 	"Hex Color - Leave empty for default color": "Hexfärg - Lämna tomt för standardfärg",
 	"Hide": "Dölj",
@@ -1230,7 +1230,7 @@
 	"Reasoning Tags": "",
 	"Record": "Spela in",
 	"Record voice": "Spela in röst",
-	"Redirecting you to FLOAT CHAT Community": "Omdirigerar dig till OpenWebUI Community",
+	
 	"Reduces the probability of generating nonsense. A higher value (e.g. 100) will give more diverse answers, while a lower value (e.g. 10) will be more conservative.": "Minskar sannolikheten för att generera nonsens. Ett högre värde (t.ex. 100) ger mer varierande svar, medan ett lägre värde (t.ex. 10) är mer konservativt.",
 	"Refer to yourself as \"User\" (e.g., \"User is learning Spanish\")": "Referera till dig själv som \"Användare\" (t.ex. \"Användaren lär sig spanska\")",
 	"Reference Chats": "",
@@ -1398,7 +1398,7 @@
 	"Settings saved successfully!": "Inställningar sparades framgångsrikt!",
 	"Share": "Dela",
 	"Share Chat": "Dela chatt",
-	"Share to FLOAT CHAT Community": "Dela till OpenWebUI Community",
+	
 	"Share your background and interests": "",
 	"Sharing Permissions": "Delningsbehörigheter",
 	"Shortcuts with an asterisk (*) are situational and only active under specific conditions.": "Genvägar med en asterisk (*) är situationsbundna och endast aktiva under specifika förhållanden.",

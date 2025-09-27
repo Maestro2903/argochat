@@ -423,7 +423,7 @@
 	"Discover a model": "Avasta mudel",
 	"Discover a prompt": "Avasta vihje",
 	"Discover a tool": "Avasta tööriist",
-	"Discover how to use FLOAT CHAT and seek support from the community.": "Avastage, kuidas kasutada FLOAT CHAT-d ja otsige tuge kogukonnalt.",
+	
 	"Discover wonders": "Avasta imesid",
 	"Discover, download, and explore custom functions": "Avasta, laadi alla ja uuri kohandatud funktsioone",
 	"Discover, download, and explore custom prompts": "Avasta, laadi alla ja uuri kohandatud vihjeid",
@@ -504,7 +504,7 @@
 	"Enable autocomplete generation for chat messages": "Luba automaattäitmise genereerimine vestlussõnumitele",
 	"Enable Code Execution": "Luba koodi täitmine",
 	"Enable Code Interpreter": "Luba koodi interpretaator",
-	"Enable Community Sharing": "Luba kogukonnaga jagamine",
+	
 	"Enable Memory Locking (mlock) to prevent model data from being swapped out of RAM. This option locks the model's working set of pages into RAM, ensuring that they will not be swapped out to disk. This can help maintain performance by avoiding page faults and ensuring fast data access.": "Luba mälu lukustamine (mlock), et vältida mudeli andmete vahetamist RAM-ist välja. See valik lukustab mudeli töökomplekti lehed RAM-i, tagades, et neid ei vahetata kettale. See aitab säilitada jõudlust, vältides lehevigu ja tagades kiire andmete juurdepääsu.",
 	"Enable Memory Mapping (mmap) to load model data. This option allows the system to use disk storage as an extension of RAM by treating disk files as if they were in RAM. This can improve model performance by allowing for faster data access. However, it may not work correctly with all systems and can consume a significant amount of disk space.": "Luba mälu kaardistamine (mmap) mudeli andmete laadimiseks. See valik võimaldab süsteemil kasutada kettamahtu RAM-i laiendusena, koheldes kettafaile nii, nagu need oleksid RAM-is. See võib parandada mudeli jõudlust, võimaldades kiiremat andmete juurdepääsu. See ei pruugi siiski kõigi süsteemidega õigesti töötada ja võib tarbida märkimisväärse koguse kettaruumi.",
 	"Enable Message Rating": "Luba sõnumite hindamine",
@@ -800,7 +800,7 @@
 	"Height": "",
 	"Hello, {{name}}": "Tere, {{name}}",
 	"Help": "Abi",
-	"Help us create the best community leaderboard by sharing your feedback history!": "Aidake meil luua parim kogukonna edetabel, jagades oma tagasiside ajalugu!",
+	
 	"Hex Color": "Hex värv",
 	"Hex Color - Leave empty for default color": "Hex värv - jätke tühjaks vaikevärvi jaoks",
 	"Hide": "Peida",
@@ -1230,7 +1230,7 @@
 	"Reasoning Tags": "",
 	"Record": "",
 	"Record voice": "Salvesta hääl",
-	"Redirecting you to FLOAT CHAT Community": "Suunamine FLOAT CHAT kogukonda",
+	
 	"Reduces the probability of generating nonsense. A higher value (e.g. 100) will give more diverse answers, while a lower value (e.g. 10) will be more conservative.": "Vähendab mõttetuste genereerimise tõenäosust. Kõrgem väärtus (nt 100) annab mitmekesisemaid vastuseid, samas kui madalam väärtus (nt 10) on konservatiivsem.",
 	"Refer to yourself as \"User\" (e.g., \"User is learning Spanish\")": "Viita endale kui \"Kasutaja\" (nt \"Kasutaja õpib hispaania keelt\")",
 	"Reference Chats": "",
@@ -1398,7 +1398,7 @@
 	"Settings saved successfully!": "Seaded edukalt salvestatud!",
 	"Share": "Jaga",
 	"Share Chat": "Jaga vestlust",
-	"Share to FLOAT CHAT Community": "Jaga FLOAT CHAT kogukonnaga",
+	
 	"Share your background and interests": "",
 	"Sharing Permissions": "",
 	"Shortcuts with an asterisk (*) are situational and only active under specific conditions.": "",

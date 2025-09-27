@@ -423,7 +423,7 @@
 	"Discover a model": "Моделни кашф қилинг",
 	"Discover a prompt": "Кўрсатмани кашф қилинг",
 	"Discover a tool": "Асбобни кашф қилинг",
-	"Discover how to use FLOAT CHAT and seek support from the community.": "FLOAT CHATдан қандай фойдаланишни билиб олинг ва ҳамжамиятдан ёрдам сўранг.",
+	
 	"Discover wonders": "Мўъжизаларни кашф этинг",
 	"Discover, download, and explore custom functions": "Махсус функцияларни кашф этинг, юклаб олинг ва ўрганинг",
 	"Discover, download, and explore custom prompts": "Махсус таклифларни кашф қилинг, юклаб олинг ва ўрганинг",
@@ -504,7 +504,7 @@
 	"Enable autocomplete generation for chat messages": "Чат хабарлари учун автоматик тўлдиришни яратишни ёқинг",
 	"Enable Code Execution": "Код бажарилишини ёқинг",
 	"Enable Code Interpreter": "Код таржимонини ёқинг",
-	"Enable Community Sharing": "Ҳамжамият билан алмашишни ёқинг",
+	
 	"Enable Memory Locking (mlock) to prevent model data from being swapped out of RAM. This option locks the model's working set of pages into RAM, ensuring that they will not be swapped out to disk. This can help maintain performance by avoiding page faults and ensuring fast data access.": "Модел маълумотларини РАМдан алмаштиришнинг олдини олиш учун Хотирани қулфлашни (mlock) ёқинг. Ушбу параметр моделнинг ишлайдиган саҳифалар тўпламини РАМга блоклайди ва улар дискка алмаштирилмаслигини таъминлайди. Бу саҳифа хатоларидан қочиш ва маълумотларга тезкор киришни таъминлаш орқали ишлашни сақлашга ёрдам беради.",
 	"Enable Memory Mapping (mmap) to load model data. This option allows the system to use disk storage as an extension of RAM by treating disk files as if they were in RAM. This can improve model performance by allowing for faster data access. However, it may not work correctly with all systems and can consume a significant amount of disk space.": "Модел маълумотларини юклаш учун Хотира харитасини (mmap) ёқинг. Ушбу параметр тизимга диск файлларини оператив хотирада бўлганидек даволаш орқали РАМ кенгайтмаси сифатида диск хотирасидан фойдаланиш имконини беради. Бу маълумотларга тезроқ кириш имконини бериш орқали модел иш фаолиятини яхшилаши мумкин. Бироқ, у барча тизимлар билан тўғри ишламаслиги ва катта ҳажмдаги диск майдонини истеъмол қилиши мумкин.",
 	"Enable Message Rating": "Хабар рейтингини ёқиш",
@@ -800,7 +800,7 @@
 	"Height": "",
 	"Hello, {{name}}": "Салом, {{name}}",
 	"Help": "Ёрдам",
-	"Help us create the best community leaderboard by sharing your feedback history!": "Фикр-мулоҳазаларингиз тарихини баҳам кўриш орқали энг яхши ҳамжамият етакчилари жадвалини яратишга ёрдам беринг!",
+	
 	"Hex Color": "Олти бурчакли ранг",
 	"Hex Color - Leave empty for default color": "Ҳех Cолор - стандарт ранг учун бўш қолдиринг",
 	"Hide": "Яшириш",
@@ -1230,7 +1230,7 @@
 	"Reasoning Tags": "",
 	"Record": "Ёзиб олиш",
 	"Record voice": "Овозни ёзиб олинг",
-	"Redirecting you to FLOAT CHAT Community": "Сизни Опен WебУИ ҳамжамиятига йўналтирмоқда",
+	
 	"Reduces the probability of generating nonsense. A higher value (e.g. 100) will give more diverse answers, while a lower value (e.g. 10) will be more conservative.": "Бемаъни нарсаларни яратиш эҳтимолини камайтиради. Юқори қиймат (масалан, 100) турли хил жавоблар беради, пастроқ қиймат (масалан, 10) эса консерватив бўлади.",
 	"Refer to yourself as \"User\" (e.g., \"User is learning Spanish\")": "Ўзингизни \"Фойдаланувчи\" деб кўрсатинг (масалан, \"Фойдаланувчи испан тилини ўрганмоқда\")",
 	"Reference Chats": "",
@@ -1398,7 +1398,7 @@
 	"Settings saved successfully!": "Созламалар муваффақиятли сақланди!",
 	"Share": "Улашиш",
 	"Share Chat": "Чатни улашиш",
-	"Share to FLOAT CHAT Community": "Опен WебУИ ҳамжамиятига улашинг",
+	
 	"Share your background and interests": "",
 	"Sharing Permissions": "Рухсатларни алмашиш",
 	"Shortcuts with an asterisk (*) are situational and only active under specific conditions.": "",

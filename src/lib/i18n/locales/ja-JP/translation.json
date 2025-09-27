@@ -423,7 +423,7 @@
 	"Discover a model": "モデルを探す",
 	"Discover a prompt": "プロンプトを探す",
 	"Discover a tool": "ツールを探す",
-	"Discover how to use FLOAT CHAT and seek support from the community.": "FLOAT CHATの使用方法を探し、コミュニティからサポートを求めてください。",
+	
 	"Discover wonders": "不思議を発見",
 	"Discover, download, and explore custom functions": "カスタムFunctionを探してダウンロードする",
 	"Discover, download, and explore custom prompts": "カスタムプロンプトを探してダウンロードする",
@@ -504,7 +504,7 @@
 	"Enable autocomplete generation for chat messages": "チャットメッセージの自動補完を有効にする",
 	"Enable Code Execution": "コードの実行を有効にする",
 	"Enable Code Interpreter": "コードインタプリタを有効にする",
-	"Enable Community Sharing": "コミュニティ共有を有効にする",
+	
 	"Enable Memory Locking (mlock) to prevent model data from being swapped out of RAM. This option locks the model's working set of pages into RAM, ensuring that they will not be swapped out to disk. This can help maintain performance by avoiding page faults and ensuring fast data access.": "メモリロック (mlock) を有効にして、モデルデータがRAMからスワップアウトされるのを防ぐ。このオプションは、モデルが現在使用しているページセットをRAMにロックし、ディスクにスワップアウトされないようにします。これにより、ページフォルトを回避し、高速なデータアクセスを保証することで、パフォーマンスの維持に役立ちます。 ",
 	"Enable Memory Mapping (mmap) to load model data. This option allows the system to use disk storage as an extension of RAM by treating disk files as if they were in RAM. This can improve model performance by allowing for faster data access. However, it may not work correctly with all systems and can consume a significant amount of disk space.": "モデルデータのロードにメモリマッピング (mmap) を有効する。このオプションは、ディスクファイルをRAM内にあるかのように扱うことで、システムがディスクストレージをRAMの拡張として使用することを可能にします。これにより、より高速なデータアクセスが可能になり、モデルのパフォーマンスを向上させることができます。ただし、すべてのシステムで正しく動作するわけではなく、かなりのディスク容量を消費する可能性があります。 ",
 	"Enable Message Rating": "メッセージ評価を有効にする",
@@ -800,7 +800,7 @@
 	"Height": "高さ",
 	"Hello, {{name}}": "こんにちは、{{name}} さん",
 	"Help": "ヘルプ",
-	"Help us create the best community leaderboard by sharing your feedback history!": "フィードバック履歴を共有して、最高のコミュニティリーダーボードの作成を手伝ってください！",
+	
 	"Hex Color": "16進数の色",
 	"Hex Color - Leave empty for default color": "16進数の色 - デフォルトの色を使用する場合は空白のままにします",
 	"Hide": "非表示",
@@ -1230,7 +1230,7 @@
 	"Reasoning Tags": "",
 	"Record": "録音",
 	"Record voice": "音声を録音",
-	"Redirecting you to FLOAT CHAT Community": "OpenWebUI コミュニティにリダイレクトしています",
+	
 	"Reduces the probability of generating nonsense. A higher value (e.g. 100) will give more diverse answers, while a lower value (e.g. 10) will be more conservative.": "無意味な生成の確率を減少させます。高い値（例：100）はより多様な回答を提供し、低い値（例：10）ではより保守的になります。",
 	"Refer to yourself as \"User\" (e.g., \"User is learning Spanish\")": "あなたのことは「User」としてください（例：「User はスペイン語を学んでいます」）",
 	"Reference Chats": "",
@@ -1397,7 +1397,7 @@
 	"Settings saved successfully!": "設定が正常に保存されました！",
 	"Share": "共有",
 	"Share Chat": "チャットを共有",
-	"Share to FLOAT CHAT Community": "OpenWebUI コミュニティに共有",
+	
 	"Share your background and interests": "あなたの背景情報と興味を教えてください",
 	"Sharing Permissions": "共有に関する権限",
 	"Shortcuts with an asterisk (*) are situational and only active under specific conditions.": "アスタリスク(*)のついたショートカットは、特定の状況下でのみ有効です。",

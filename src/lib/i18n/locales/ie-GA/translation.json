@@ -423,7 +423,7 @@
 	"Discover a model": "Faigh amach samhail",
 	"Discover a prompt": "Faigh amach leid",
 	"Discover a tool": "Faigh amach uirlis",
-	"Discover how to use FLOAT CHAT and seek support from the community.": "Faigh amach conas FLOAT CHAT a úsáid agus lorg tacaíocht ón bpobal.",
+	
 	"Discover wonders": "Faigh amach iontais",
 	"Discover, download, and explore custom functions": "Faigh amach, íoslódáil agus iniúchadh feidhmeanna saincheaptha",
 	"Discover, download, and explore custom prompts": "Leideanna saincheaptha a fháil amach, a íoslódáil agus a iniúchadh",
@@ -504,7 +504,7 @@
 	"Enable autocomplete generation for chat messages": "Cumasaigh giniúint uathchríochnaithe le haghaidh teachtaireachtaí comhrá",
 	"Enable Code Execution": "Cumasaigh Forghníomhú Cód",
 	"Enable Code Interpreter": "Cumasaigh Ateangaire Cóid",
-	"Enable Community Sharing": "Cumasaigh Comhroinnt Pobail",
+	
 	"Enable Memory Locking (mlock) to prevent model data from being swapped out of RAM. This option locks the model's working set of pages into RAM, ensuring that they will not be swapped out to disk. This can help maintain performance by avoiding page faults and ensuring fast data access.": "Cumasaigh Glasáil Cuimhne (mlock) chun cosc a chur ar shonraí samhail a bheith á malartú amach as RAM. Glasálann an rogha seo tacar oibre leathanach an tsamhail isteach sa RAM, rud a chinntíonn nach ndéanfar iad a mhalartú amach chuig diosca. Is féidir leis seo cabhrú le feidhmíocht a choinneáil trí lochtanna leathanaigh a sheachaint agus rochtain thapa ar shonraí a chinntiú.",
 	"Enable Memory Mapping (mmap) to load model data. This option allows the system to use disk storage as an extension of RAM by treating disk files as if they were in RAM. This can improve model performance by allowing for faster data access. However, it may not work correctly with all systems and can consume a significant amount of disk space.": "Cumasaigh Mapáil Cuimhne (mmap) chun sonraí samhla a lódáil. Ligeann an rogha seo don chóras stóráil diosca a úsáid mar leathnú ar RAM trí chomhaid diosca a chóireáil amhail is dá mba i RAM iad. Is féidir leis seo feidhmíocht na samhla a fheabhsú trí rochtain níos tapúla ar shonraí a cheadú. Mar sin féin, d'fhéadfadh sé nach n-oibreoidh sé i gceart le gach córas agus féadfaidh sé méid suntasach spáis diosca a ithe.",
 	"Enable Message Rating": "Cumasaigh Rátáil Teachtai",
@@ -800,7 +800,7 @@
 	"Height": "Airde",
 	"Hello, {{name}}": "Dia duit, {{name}}",
 	"Help": "Cabhair",
-	"Help us create the best community leaderboard by sharing your feedback history!": "Cabhraigh linn an clár ceannairí pobail is fearr a chruthú trí do stair aiseolais a roinnt!",
+	
 	"Hex Color": "Dath Heics",
 	"Hex Color - Leave empty for default color": "Dath Heics - Fág folamh don dath réamhshocraithe",
 	"Hide": "Folaigh",
@@ -1230,7 +1230,7 @@
 	"Reasoning Tags": "Clibeanna Réasúnaíochta",
 	"Record": "Taifead",
 	"Record voice": "Taifead guth",
-	"Redirecting you to FLOAT CHAT Community": "Tú a atreorú chuig OpenWebUI Community",
+	
 	"Reduces the probability of generating nonsense. A higher value (e.g. 100) will give more diverse answers, while a lower value (e.g. 10) will be more conservative.": "Laghdaíonn sé an dóchúlacht go giniúint nonsense. Tabharfaidh luach níos airde (m.sh. 100) freagraí níos éagsúla, agus beidh luach níos ísle (m.sh. 10) níos coimeádaí.",
 	"Refer to yourself as \"User\" (e.g., \"User is learning Spanish\")": "Tagairt duit féin mar \"Úsáideoir\" (m.sh., \"Tá an úsáideoir ag foghlaim Spáinnis\")",
 	"Reference Chats": "Comhráite Tagartha",
@@ -1398,7 +1398,7 @@
 	"Settings saved successfully!": "Socruithe sábhálta go rathúil!",
 	"Share": "Comhroinn",
 	"Share Chat": "Comhroinn Comhrá",
-	"Share to FLOAT CHAT Community": "Comhroinn le Pobal OpenWebUI",
+	
 	"Share your background and interests": "Roinn do chúlra agus do leasanna",
 	"Sharing Permissions": "Ceadanna a Roinnt",
 	"Shortcuts with an asterisk (*) are situational and only active under specific conditions.": "Is cásanna iad aicearraí a bhfuil réalta (*) orthu agus ní bhíonn siad gníomhach ach faoi choinníollacha sonracha.",

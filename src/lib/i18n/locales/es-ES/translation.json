@@ -423,7 +423,7 @@
 	"Discover a model": "Descubrir Modelos",
 	"Discover a prompt": "Descubrir Indicadores",
 	"Discover a tool": "Descubrir Herramientas",
-	"Discover how to use FLOAT CHAT and seek support from the community.": "Descubre cómo usar FLOAT CHAT y busca Soporte Comunitario.",
+	
 	"Discover wonders": "Descubre Maravillas",
 	"Discover, download, and explore custom functions": "Descubre, descarga y explora funciones personalizadas",
 	"Discover, download, and explore custom prompts": "Descubre, descarga, y explora indicadores personalizados",
@@ -504,7 +504,7 @@
 	"Enable autocomplete generation for chat messages": "Habilitar generación de autocompletado para mensajes de chat",
 	"Enable Code Execution": "Habilitar Ejecución de Código",
 	"Enable Code Interpreter": "Habilitar Interprete de Código",
-	"Enable Community Sharing": "Habilitar Compartir con la Comunidad",
+	
 	"Enable Memory Locking (mlock) to prevent model data from being swapped out of RAM. This option locks the model's working set of pages into RAM, ensuring that they will not be swapped out to disk. This can help maintain performance by avoiding page faults and ensuring fast data access.": "Habilitar bloqueo de memoria (mlock) para prevenir que los datos del modelo se intercambien fuera de la RAM. Esta opción bloquea el conjunto de páginas de trabajo del modelo en RAM, asegurando que no se intercambiarán fuera a disco. Esto puede ayudar a mantener el rendimiento evitando fallos de página y asegurando un acceso rápido a los datos.",
 	"Enable Memory Mapping (mmap) to load model data. This option allows the system to use disk storage as an extension of RAM by treating disk files as if they were in RAM. This can improve model performance by allowing for faster data access. However, it may not work correctly with all systems and can consume a significant amount of disk space.": "Habilitar Mapeado de Memoria (mmap) para cargar datos del modelo. Esta opción permite al sistema usar el almacenamiento del disco como una extensión de la RAM al tratar los archivos en disco como si estuvieran en la RAM. Esto puede mejorar el rendimiento del modelo al permitir un acceso más rápido a los datos. Sin embargo, puede no funcionar correctamente con todos los sistemas y puede consumir una cantidad significativa de espacio en disco.",
 	"Enable Message Rating": "Habilitar Calificación de los Mensajes",
@@ -800,7 +800,7 @@
 	"Height": "Altura",
 	"Hello, {{name}}": "Hola, {{name}}",
 	"Help": "Ayuda",
-	"Help us create the best community leaderboard by sharing your feedback history!": "¡Ayúdanos a crear la mejor tabla clasificatoria comunitaria compartiendo tus comentarios!",
+	
 	"Hex Color": "Color Hex",
 	"Hex Color - Leave empty for default color": "Color Hex - Deja vacío para el color predeterminado",
 	"Hide": "Esconder",
@@ -1230,7 +1230,7 @@
 	"Reasoning Tags": "Eriquetas de Razonamiento",
 	"Record": "Grabar",
 	"Record voice": "Grabar voz",
-	"Redirecting you to FLOAT CHAT Community": "Redireccionando a la Comunidad Open-WebUI",
+	
 	"Reduces the probability of generating nonsense. A higher value (e.g. 100) will give more diverse answers, while a lower value (e.g. 10) will be more conservative.": "Reduce la probabilidad de generación sin sentido. Un valor más alto (p.ej. 100) dará respuestas más diversas, mientras que un valor más bajo (p.ej. 10) será más conservador.",
 	"Refer to yourself as \"User\" (e.g., \"User is learning Spanish\")": "Referir a ti mismo como \"Usuario\" (p.ej. \"Usuario está aprendiendo Español\")",
 	"Reference Chats": "Referenciar Chats",
@@ -1399,7 +1399,7 @@
 	"Settings saved successfully!": "¡Ajustes guardados correctamente!",
 	"Share": "Compartir",
 	"Share Chat": "Compartir Chat",
-	"Share to FLOAT CHAT Community": "Compartir con la Comunidad Open-WebUI",
+	
 	"Share your background and interests": "Compartir tus antecedentes e intereses",
 	"Sharing Permissions": "Permisos al Compartir",
 	"Shortcuts with an asterisk (*) are situational and only active under specific conditions.": "Accesos cortos con un asterisco (*) depende de la situación y solo activos bajo determinadas condiciones.",

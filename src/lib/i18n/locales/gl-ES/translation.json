@@ -423,7 +423,7 @@
 	"Discover a model": "Descubrir un modelo",
 	"Discover a prompt": "Descubre un Prompt",
 	"Discover a tool": "Descubre unha ferramenta",
-	"Discover how to use FLOAT CHAT and seek support from the community.": "Descubra como usar FLOAT CHAT e busque apoio na comunidade.",
+	
 	"Discover wonders": "Descubre maravillas",
 	"Discover, download, and explore custom functions": "Descubre, descarga y explora funcións personalizadas",
 	"Discover, download, and explore custom prompts": "Descubre, descarga, y explora Prompts personalizados",
@@ -504,7 +504,7 @@
 	"Enable autocomplete generation for chat messages": "Habilitar xeneración de autocompletado para mensaxes de chat",
 	"Enable Code Execution": "Habilitar a execución de código",
 	"Enable Code Interpreter": "Habilitar o interprete de código",
-	"Enable Community Sharing": "Habilitar o uso compartido da comunidad",
+	
 	"Enable Memory Locking (mlock) to prevent model data from being swapped out of RAM. This option locks the model's working set of pages into RAM, ensuring that they will not be swapped out to disk. This can help maintain performance by avoiding page faults and ensuring fast data access.": "Habilitar o bloqueo de memoria (mlock) para evitar que os datos do modelo se intercambien da RAM. Esta opción bloquea o conxunto de páxinas de traballo do modelo na RAM, asegurando que non se intercambiarán ao disco. Isto pode axudar a manter o rendemento evitando fallos de páxina e garantindo un acceso rápido aos datos.",
 	"Enable Memory Mapping (mmap) to load model data. This option allows the system to use disk storage as an extension of RAM by treating disk files as if they were in RAM. This can improve model performance by allowing for faster data access. However, it may not work correctly with all systems and can consume a significant amount of disk space.": "Habilitar o mapeo de memoria (mmap) para cargar os datos do modelo. Esta opción permite ao sistema usar o almacenamento en disco como unha extensión da RAM tratando os arquivos de disco como se estivesen na RAM. Isto pode mellorar o rendemento do modelo permitindo un acceso máis rápido aos datos. Sen embargo, pode non funcionar correctamente con todos os sistemas e pode consumir unha cantidade significativa de espazo en disco.",
 	"Enable Message Rating": "Habilitar a calificación de os mensaxes",
@@ -800,7 +800,7 @@
 	"Height": "",
 	"Hello, {{name}}": "Hola, {{name}}",
 	"Help": "axuda",
-	"Help us create the best community leaderboard by sharing your feedback history!": "¡Axudanos a xerar o mejor tablero de líderes da comunidad compartindo o teu historial de retroalimentación!",
+	
 	"Hex Color": "Cor Hex",
 	"Hex Color - Leave empty for default color": "Cor Hex - deixa vacío para o color predeterminado",
 	"Hide": "Esconder",
@@ -1230,7 +1230,7 @@
 	"Reasoning Tags": "",
 	"Record": "",
 	"Record voice": "Grabar voz",
-	"Redirecting you to FLOAT CHAT Community": "Redireccionándote a a comunidad OpenWebUI",
+	
 	"Reduces the probability of generating nonsense. A higher value (e.g. 100) will give more diverse answers, while a lower value (e.g. 10) will be more conservative.": "",
 	"Refer to yourself as \"User\" (e.g., \"User is learning Spanish\")": "Referirse a vostede mismo como \"Usuario\" (por Exemplo, \"O usuario está aprendiendo Español\")",
 	"Reference Chats": "",
@@ -1398,7 +1398,7 @@
 	"Settings saved successfully!": "¡Configuración gardada con éxito!",
 	"Share": "Compartir",
 	"Share Chat": "Compartir Chat",
-	"Share to FLOAT CHAT Community": "Compartir coa comunidads OpenWebUI",
+	
 	"Share your background and interests": "",
 	"Sharing Permissions": "",
 	"Shortcuts with an asterisk (*) are situational and only active under specific conditions.": "",

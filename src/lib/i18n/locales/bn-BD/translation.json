@@ -423,7 +423,7 @@
 	"Discover a model": "একটি মডেল আবিষ্কার করুন",
 	"Discover a prompt": "একটি প্রম্পট খুঁজে বের করুন",
 	"Discover a tool": "",
-	"Discover how to use FLOAT CHAT and seek support from the community.": "",
+	
 	"Discover wonders": "",
 	"Discover, download, and explore custom functions": "",
 	"Discover, download, and explore custom prompts": "কাস্টম প্রম্পটগুলো আবিস্কার, ডাউনলোড এবং এক্সপ্লোর করুন",
@@ -504,7 +504,7 @@
 	"Enable autocomplete generation for chat messages": "",
 	"Enable Code Execution": "",
 	"Enable Code Interpreter": "",
-	"Enable Community Sharing": "সম্প্রদায় শেয়ারকরণ সক্ষম করুন",
+	
 	"Enable Memory Locking (mlock) to prevent model data from being swapped out of RAM. This option locks the model's working set of pages into RAM, ensuring that they will not be swapped out to disk. This can help maintain performance by avoiding page faults and ensuring fast data access.": "",
 	"Enable Memory Mapping (mmap) to load model data. This option allows the system to use disk storage as an extension of RAM by treating disk files as if they were in RAM. This can improve model performance by allowing for faster data access. However, it may not work correctly with all systems and can consume a significant amount of disk space.": "",
 	"Enable Message Rating": "",
@@ -800,7 +800,7 @@
 	"Height": "",
 	"Hello, {{name}}": "হ্যালো, {{name}}",
 	"Help": "সহায়তা",
-	"Help us create the best community leaderboard by sharing your feedback history!": "",
+	
 	"Hex Color": "",
 	"Hex Color - Leave empty for default color": "",
 	"Hide": "লুকান",
@@ -1230,7 +1230,7 @@
 	"Reasoning Tags": "",
 	"Record": "",
 	"Record voice": "ভয়েস রেকর্ড করুন",
-	"Redirecting you to FLOAT CHAT Community": "আপনাকে OpenWebUI কমিউনিটিতে পাঠানো হচ্ছে",
+	
 	"Reduces the probability of generating nonsense. A higher value (e.g. 100) will give more diverse answers, while a lower value (e.g. 10) will be more conservative.": "",
 	"Refer to yourself as \"User\" (e.g., \"User is learning Spanish\")": "",
 	"Reference Chats": "",
@@ -1398,7 +1398,7 @@
 	"Settings saved successfully!": "সেটিংগুলো সফলভাবে সংরক্ষিত হয়েছে",
 	"Share": "শেয়ার করুন",
 	"Share Chat": "চ্যাট শেয়ার করুন",
-	"Share to FLOAT CHAT Community": "OpenWebUI কমিউনিটিতে শেয়ার করুন",
+	
 	"Share your background and interests": "",
 	"Sharing Permissions": "",
 	"Shortcuts with an asterisk (*) are situational and only active under specific conditions.": "",
