@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Open WebUI Development Environment Setup Script
+# FLOAT CHAT Development Environment Setup Script
 # This script sets up the correct Node.js and Python versions for development
 
 set -e
 
-echo "🚀 Setting up Open WebUI development environment..."
+echo "🚀 Setting up FLOAT CHAT development environment..."
 
 # Check if nvm is installed
 if ! command -v nvm &> /dev/null; then

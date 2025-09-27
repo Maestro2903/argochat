@@ -1,6 +1,6 @@
 [project]
-name = "open-webui"
-description = "Open WebUI"
+name = "float-chat"
+description = "FLOAT CHAT"
 authors = [
     { name = "Timothy Jaeryang Baek", email = "tim@openwebui.com" }
 ]
@@ -163,7 +163,7 @@ all = [
 ]
 
 [project.scripts]
-open-webui = "open_webui:app"
+float-chat = "open_webui:app"
 
 [build-system]
 requires = ["hatchling"]
