@@ -66,9 +66,11 @@ services:
     env: node
     region: oregon
     plan: starter
-    # Optimized build command
+    # Optimized build command with error handling
     buildCommand: |
+      echo "Installing dependencies with legacy peer deps..." &&
       npm ci --legacy-peer-deps &&
+      echo "Running build process..." &&
       npm run build
     # Production start command using Node.js adapter
     startCommand: |
