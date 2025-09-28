@@ -1,19 +1,25 @@
-# Render Blueprint for ArgoChat (Open WebUI)
-# This file configures deployment for both frontend and backend services
+# Render Blueprint for FLOAT CHAT
+# Production-ready deployment configuration for Render.com
 
 services:
   # Backend API Service (Python FastAPI)
   - type: web
-    name: argochat-backend
+    name: floatchat-backend
     env: python
     region: oregon
     plan: starter
-    buildCommand: pip install -r backend/requirements.txt
-    startCommand: cd backend && python -m uvicorn open_webui.main:app --host 0.0.0.0 --port $PORT
-    healthCheckPath: /api/health
+    # Optimized build command with proper Python version and dependencies
+    buildCommand: |
+      python3.12 -m pip install --upgrade pip setuptools wheel &&
+      pip install -r backend/requirements.txt --no-cache-dir
+    # Production start command with proper worker configuration
+    startCommand: |
+      cd backend &&
+      python3.12 -m uvicorn open_webui.main:app --host 0.0.0.0 --port $PORT --workers 1 --forwarded-allow-ips '*'
+    healthCheckPath: /health
     envVars:
       - key: PYTHON_VERSION
-        value: 3.12.0
+        value: 3.12.7
       - key: ENV
         value: prod
       - key: WEBUI_SECRET_KEY
@@ -25,53 +31,71 @@ services:
       - key: OPENAI_API_BASE_URL
         value: https://api.openai.com/v1
       - key: CORS_ALLOW_ORIGIN
-        value: https://argochat-frontend.onrender.com
+        value: https://floatchat-frontend.onrender.com
       - key: FORWARDED_ALLOW_IPS
         value: "*"
       - key: WEBUI_URL
-        value: https://argochat-frontend.onrender.com
+        value: https://floatchat-frontend.onrender.com
       - key: PORT
         value: 10000
+      - key: SCARF_NO_ANALYTICS
+        value: true
+      - key: DO_NOT_TRACK
+        value: true
+      - key: ANONYMIZED_TELEMETRY
+        value: false
+      # Database configuration (SQLite by default, can be upgraded to PostgreSQL)
+      - key: DATABASE_URL
+        value: sqlite:///./data/webui.db
+      # Enable authentication
+      - key: WEBUI_AUTH
+        value: true
+      - key: ENABLE_SIGNUP
+        value: true
+      # Security settings
+      - key: WEBUI_JWT_SECRET_KEY
+        generateValue: true
     disk:
-      name: argochat-data
+      name: floatchat-data
       mountPath: /opt/render/project/src/backend/data
-      sizeGB: 1
+      sizeGB: 2
 
-  # Frontend Service (SvelteKit)
+  # Frontend Service (SvelteKit with Node.js adapter)
   - type: web
-    name: argochat-frontend
+    name: floatchat-frontend
     env: node
     region: oregon
     plan: starter
-    buildCommand: npm install --legacy-peer-deps && npm run build
-    startCommand: npm run preview -- --host 0.0.0.0 --port $PORT
+    # Optimized build command
+    buildCommand: |
+      npm ci --legacy-peer-deps &&
+      npm run build
+    # Production start command using Node.js adapter
+    startCommand: |
+      HOST=0.0.0.0 PORT=$PORT node build
     envVars:
       - key: NODE_VERSION
         value: 22.12.0
+      - key: NODE_ENV
+        value: production
       - key: PUBLIC_API_BASE_URL
-        value: https://argochat-backend.onrender.com
+        value: https://floatchat-backend.onrender.com
       - key: ORIGIN
-        value: https://argochat-frontend.onrender.com
+        value: https://floatchat-frontend.onrender.com
       - key: APP_VERSION
         value: 0.6.31
       - key: APP_BUILD_HASH
         value: render-build
+      # SvelteKit configuration
+      - key: BODY_SIZE_LIMIT
+        value: 52428800
+      - key: XFF_DEPTH
+        value: 1
 
-  # Database (PostgreSQL for production)
-  - type: pserv
-    name: argochat-db
-    env: docker
+databases:
+  # Optional: PostgreSQL database (upgrade from SQLite for production)
+  - name: floatchat-postgres
+    databaseName: floatchat
+    user: floatchat_user
     plan: starter
     region: oregon
-    dockerfilePath: ./Dockerfile.postgres
-    envVars:
-      - key: POSTGRES_DB
-        value: argochat
-      - key: POSTGRES_USER
-        value: argochat_user
-      - key: POSTGRES_PASSWORD
-        generateValue: true
-    disk:
-      name: postgres-data
-      mountPath: /var/lib/postgresql/data
-      sizeGB: 1

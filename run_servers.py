@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Open WebUI Development Server Manager
+FLOAT CHAT Development Server Manager
 
 This script starts both the frontend and backend servers concurrently,
 with proper environment setup and graceful shutdown handling.
@@ -296,7 +296,7 @@ class ServerManager:
 
     def run(self):
         """Main execution method"""
-        print(f"{Colors.BOLD}{Colors.GREEN}Open WebUI Development Server Manager{Colors.END}")
+        print(f"{Colors.BOLD}{Colors.GREEN}FLOAT CHAT Development Server Manager{Colors.END}")
         print(f"{Colors.CYAN}Starting both frontend and backend servers...{Colors.END}\n")
 
         # Check dependencies

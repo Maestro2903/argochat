@@ -1,6 +1,6 @@
 [project]
 name = "float-chat"
-description = "FLOAT CHAT"
+description = "Float Chat"
 authors = [
     { name = "Timothy Jaeryang Baek", email = "tim@openwebui.com" }
 ]
@@ -97,7 +97,7 @@ dependencies = [
     "faster-whisper==1.1.1",
 
     "black==25.1.0",
-    "youtube-transcript-api==1.1.0",
+    "youtube-transcript-api==1.2.2",
     "pytube==15.0.0",
 
     "pydub",
@@ -144,12 +144,12 @@ postgres = [
 
 all = [
     "pymongo",
-    "psycopg2-binary==2.9.9",
-    "pgvector==0.4.0",
+    "psycopg2-binary==2.9.10",
+    "pgvector==0.4.1",
     "moto[s3]>=5.0.26",
     "gcp-storage-emulator>=2024.8.3",
     "docker~=7.1.0",
-    "pytest~=8.3.2",
+    "pytest~=8.4.1",
     "pytest-docker~=3.1.1",
     "playwright==1.49.1",
     "elasticsearch==9.1.0",
@@ -163,7 +163,7 @@ all = [
 ]
 
 [project.scripts]
-float-chat = "open_webui:app"
+open-webui = "open_webui:app"
 
 [build-system]
 requires = ["hatchling"]

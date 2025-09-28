@@ -7,6 +7,13 @@ from aiocache import cached
 from fastapi import Request
 
 from open_webui.routers import openai, ollama
+# Optional NVIDIA integration
+try:
+    from open_webui.routers import nvidia
+    HAS_NVIDIA = True
+except Exception:
+    nvidia = None
+    HAS_NVIDIA = False
 from open_webui.functions import get_function_models
 
 
@@ -57,6 +64,36 @@ async def fetch_openai_models(request: Request, user: UserModel = None):
     return openai_response["data"]
 
 
+async def fetch_nvidia_models(request: Request, user: UserModel = None):
+    if not HAS_NVIDIA:
+        log.warning("NVIDIA integration not available")
+        return []
+    try:
+        log.info("Fetching NVIDIA models...")
+        nvidia_response = await nvidia.get_all_models(request, user)
+        log.info(f"NVIDIA response: {nvidia_response}")
+        # Normalize to base model structure
+        models = [
+            {
+                "id": model["id"],
+                "name": model.get("name", model["id"]),
+                "object": "model",
+                "created": model.get("created", int(time.time())),
+                "owned_by": "nvidia",
+                "provider": "nvidia",
+                "nvidia": model,
+                "connection_type": "cloud",
+                "tags": model.get("tags", []),
+            }
+            for model in nvidia_response.get("models", [])
+        ]
+        log.info(f"Normalized NVIDIA models: {len(models)} models")
+        return models
+    except Exception as e:
+        log.error(f"Error fetching NVIDIA models: {e}")
+        return []
+
+
 async def get_all_base_models(request: Request, user: UserModel = None):
     openai_task = (
         fetch_openai_models(request, user)
@@ -68,13 +105,14 @@ async def get_all_base_models(request: Request, user: UserModel = None):
         if request.app.state.config.ENABLE_OLLAMA_API
         else asyncio.sleep(0, result=[])
     )
+    nvidia_task = fetch_nvidia_models(request, user)
     function_task = get_function_models(request)
 
-    openai_models, ollama_models, function_models = await asyncio.gather(
-        openai_task, ollama_task, function_task
+    openai_models, ollama_models, nvidia_models, function_models = await asyncio.gather(
+        openai_task, ollama_task, nvidia_task, function_task
     )
 
-    return function_models + openai_models + ollama_models
+    return function_models + openai_models + ollama_models + nvidia_models
 
 
 async def get_all_models(request, refresh: bool = False, user: UserModel = None):

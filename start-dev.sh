@@ -66,6 +66,12 @@ if [[ ! -f .env ]]; then
     cp .env.example .env
 fi
 
+# Check if SSL certificates exist, generate if needed
+if [[ ! -f certs/cert.pem ]] || [[ ! -f certs/key.pem ]]; then
+    log "SSL certificates not found. Generating..." "$YELLOW"
+    ./scripts/generate-certs.sh
+fi
+
 # Check Node.js
 if ! command -v node &> /dev/null; then
     log "❌ Node.js not found. Please install Node.js 22.x.x" "$RED"
@@ -73,8 +79,8 @@ if ! command -v node &> /dev/null; then
 fi
 
 # Check Python
-if ! command -v python3 &> /dev/null; then
-    log "❌ Python 3 not found. Please install Python 3.11+" "$RED"
+if ! command -v python3.12 &> /dev/null; then
+    log "❌ Python 3.12 not found. Please install Python 3.12" "$RED"
     exit 1
 fi
 
@@ -90,7 +96,7 @@ log "✅ Dependencies check passed" "$GREEN"
 log "🚀 Starting backend server..." "$BLUE"
 (
     cd backend
-    python3 -m uvicorn open_webui.main:app --reload --host 0.0.0.0 --port 8081 2>&1 | \
+    WEBUI_AUTH=true ENABLE_SIGNUP=true python3.12 -m uvicorn open_webui.main:app --reload --host 0.0.0.0 --port 8080 2>&1 | \
     while IFS= read -r line; do
         echo -e "${BLUE}[BACKEND]${NC} $line"
     done
@@ -138,8 +144,11 @@ echo ""
 log "🎉 Both servers are running successfully!" "$GREEN"
 echo ""
 echo -e "${GREEN}📱 Access URLs:${NC}"
-echo -e "   Frontend: ${BLUE}http://localhost:5173/${NC}"
-echo -e "   Backend:  ${BLUE}http://localhost:8081/${NC}"
+echo -e "   Frontend: ${BLUE}https://localhost:5173/${NC}"
+echo -e "   Backend:  ${BLUE}http://localhost:8080/${NC}"
+echo ""
+echo -e "${YELLOW}⚠️  HTTPS Note: Your browser will show a security warning for the self-signed certificate.${NC}"
+echo -e "${YELLOW}   Click 'Advanced' → 'Proceed to localhost (unsafe)' to continue.${NC}"
 echo ""
 echo -e "${YELLOW}Press Ctrl+C to stop both servers${NC}"
 echo ""

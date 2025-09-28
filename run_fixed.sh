@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Fixed Open WebUI Development Server Launcher
+# Fixed FLOAT CHAT Development Server Launcher
 # This script addresses version conflicts and missing dependencies
 
 set -e
@@ -39,7 +39,7 @@ trap cleanup SIGINT SIGTERM
 
 cd "$(dirname "${BASH_SOURCE[0]}")"
 
-log "🚀 Fixed Open WebUI Development Server Launcher" "$GREEN"
+log "🚀 Fixed FLOAT CHAT Development Server Launcher" "$GREEN"
 
 # Kill any existing processes on our ports
 log "🔄 Killing existing processes on ports 8080, 5173, 5174..." "$YELLOW"

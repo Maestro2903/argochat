@@ -31,6 +31,16 @@ from open_webui.routers.ollama import (
     generate_chat_completion as generate_ollama_chat_completion,
 )
 
+# NVIDIA API integration
+try:
+    from open_webui.routers.nvidia import (
+        generate_nvidia_chat_completion,
+    )
+    HAS_NVIDIA = True
+except ImportError:
+    generate_nvidia_chat_completion = None
+    HAS_NVIDIA = False
+
 from open_webui.routers.pipelines import (
     process_pipeline_inlet_filter,
     process_pipeline_outlet_filter,
@@ -274,6 +284,26 @@ async def generate_chat_completion(
                 )
             else:
                 return convert_response_ollama_to_openai(response)
+        elif model.get("owned_by") == "nvidia" and HAS_NVIDIA:
+            # Using NVIDIA API endpoint
+            from open_webui.routers.nvidia import ChatCompletionRequest
+
+            # Convert form_data to NVIDIA ChatCompletionRequest format
+            nvidia_request = ChatCompletionRequest(
+                model=form_data.get("model"),
+                messages=form_data.get("messages", []),
+                temperature=form_data.get("temperature", 0.7),
+                top_p=form_data.get("top_p", 0.8),
+                max_tokens=form_data.get("max_tokens", 4096),
+                stream=form_data.get("stream", False),
+                stop=form_data.get("stop", None)
+            )
+
+            return await generate_nvidia_chat_completion(
+                request=request,
+                form_data=nvidia_request,
+                user=user
+            )
         else:
             return await generate_openai_chat_completion(
                 request=request,

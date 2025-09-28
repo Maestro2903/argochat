@@ -1,6 +1,6 @@
 # ArgoChat Render Deployment Guide
 
-This guide walks you through deploying ArgoChat (Open WebUI) to Render.
+This guide walks you through deploying ArgoChat (FLOAT CHAT) to Render.
 
 ## Repository Setup ✅
 

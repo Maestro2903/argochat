@@ -70,7 +70,15 @@
 	const BREAKPOINT = 768;
 
 	const setupSocket = async (enableWebsocket) => {
-		const _socket = io(`${WEBUI_BASE_URL}` || undefined, {
+		// When the frontend is served over HTTPS, using an explicit http:// URL will
+		// downgrade the WebSocket to ws:// and be blocked by the browser as mixed content.
+		// In that case, default to same-origin and rely on the dev proxy to reach the backend.
+		const baseUrl =
+			typeof window !== 'undefined' && window.location.protocol === 'https:'
+				? undefined
+				: (WEBUI_BASE_URL || undefined);
+
+		const _socket = io(baseUrl, {
 			reconnection: true,
 			reconnectionDelay: 1000,
 			reconnectionDelayMax: 5000,

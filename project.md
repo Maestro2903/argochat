@@ -1,9 +1,9 @@
-# Open WebUI Project Dependencies
+# FLOAT CHAT Project Dependencies
 
 ## Project Overview
 - **Project Name**: open-webui
 - **Version**: 0.6.31
-- **Description**: Open WebUI - A comprehensive web-based AI chat interface
+- **Description**: FLOAT CHAT - A comprehensive web-based AI chat interface
 - **License**: Other/Proprietary License
 - **Repository Type**: Full-stack application with Python backend and Svelte frontend
 
